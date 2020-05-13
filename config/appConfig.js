@@ -2,7 +2,7 @@ let appConfig = {};
 
 appConfig.port = 3000;
 appConfig.allowedCorsOrigin = "*";
-appConfig.env = "dev";
+appConfig.env = "Prod";
 appConfig.db = {
     uri: 'mongodb://127.0.0.1:27017/ngoAppDB'
   }
